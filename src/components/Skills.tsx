@@ -19,7 +19,8 @@ const Skills: React.FC = () => {
       issued: "Jun 2025",
       expires: "Jun 2026",
       credentialId: "E0103A5CB0039F43",
-      icon: Award
+      icon: Award,
+      link: "https://learn.microsoft.com/api/credentials/share/en-us/GeolGladsonBattu-7607/E0103A5CB0039F43?sharingId=233752A1C6C6FC5B"
     },
     {
       title: "AWS Certified AI Practitioner",
@@ -27,7 +28,8 @@ const Skills: React.FC = () => {
       issued: "May 2025",
       expires: "May 2028",
       credentialId: "AWS0518024",
-      icon: Cloud
+      icon: Cloud,
+      link: "https://www.credly.com/badges/63e42850-ea67-46a6-9066-9524050409fd"
     },
     {
       title: "Microsoft Certified: Azure AI Fundamentals",
@@ -35,7 +37,8 @@ const Skills: React.FC = () => {
       issued: "May 2025",
       expires: null,
       credentialId: "CD72BD59DEFBF6C9",
-      icon: Award
+      icon: Award,
+      link: "https://learn.microsoft.com/api/credentials/share/en-us/GeolGladsonBattu-7607/CD72BD59DEFBF6C9?sharingId=233752A1C6C6FC5B"
     },
     {
       title: "Microsoft Certified SQL 2012 Querying Professional",
@@ -88,11 +91,8 @@ const Skills: React.FC = () => {
           <div className="grid md:grid-cols-2 gap-6">
             {certifications.map((cert, index) => {
               const IconComponent = cert.icon;
-              return (
-                <div 
-                  key={index}
-                  className="bg-white rounded-lg shadow-sm p-6 hover:shadow-md transition-shadow"
-                >
+              const CertificationContent = (
+                <div className="bg-white rounded-lg shadow-sm p-6 hover:shadow-md transition-shadow">
                   <div className="flex items-start gap-4">
                     <div className="flex-shrink-0">
                       <IconComponent size={40} className="text-primary" />
@@ -106,6 +106,23 @@ const Skills: React.FC = () => {
                       </div>
                     </div>
                   </div>
+                </div>
+              );
+
+              return (
+                <div key={index}>
+                  {cert.link ? (
+                    <a 
+                      href={cert.link} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="block hover:scale-105 transition-transform"
+                    >
+                      {CertificationContent}
+                    </a>
+                  ) : (
+                    CertificationContent
+                  )}
                 </div>
               );
             })}
