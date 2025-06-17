@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Microsoft, Aws, Oracle } from 'lucide-react';
 
 const Skills: React.FC = () => {
   const techSkills = [
@@ -9,6 +10,49 @@ const Skills: React.FC = () => {
     { name: "R", specific: "" },
     { name: "Python", specific: "" },
     { name: "SQL", specific: "" },
+  ];
+
+  const certifications = [
+    {
+      title: "Microsoft Certified: Azure AI Engineer Associate",
+      issuer: "Microsoft",
+      issued: "Jun 2025",
+      expires: "Jun 2026",
+      credentialId: "E0103A5CB0039F43",
+      icon: Microsoft
+    },
+    {
+      title: "AWS Certified AI Practitioner",
+      issuer: "Amazon",
+      issued: "May 2025",
+      expires: "May 2028",
+      credentialId: "AWS0518024",
+      icon: Aws
+    },
+    {
+      title: "Microsoft Certified: Azure AI Fundamentals",
+      issuer: "Microsoft",
+      issued: "May 2025",
+      expires: null,
+      credentialId: "CD72BD59DEFBF6C9",
+      icon: Microsoft
+    },
+    {
+      title: "Microsoft Certified SQL 2012 Querying Professional",
+      issuer: "Microsoft",
+      issued: "Mar 2015",
+      expires: null,
+      credentialId: "11761176",
+      icon: Microsoft
+    },
+    {
+      title: "Oracle Certified Professional, Java SE 6 Programmer",
+      issuer: "Oracle",
+      issued: "Aug 2013",
+      expires: null,
+      credentialId: "OC129117G",
+      icon: Oracle
+    }
   ];
 
   return (
@@ -35,6 +79,37 @@ const Skills: React.FC = () => {
               )}
             </div>
           ))}
+        </div>
+
+        {/* Certifications Section */}
+        <div className="mt-20">
+          <h3 className="font-semibold text-2xl mb-8">Certifications</h3>
+          
+          <div className="grid md:grid-cols-2 gap-6">
+            {certifications.map((cert, index) => {
+              const IconComponent = cert.icon;
+              return (
+                <div 
+                  key={index}
+                  className="bg-white rounded-lg shadow-sm p-6 hover:shadow-md transition-shadow"
+                >
+                  <div className="flex items-start gap-4">
+                    <div className="flex-shrink-0">
+                      <IconComponent size={40} className="text-primary" />
+                    </div>
+                    <div className="flex-1">
+                      <h4 className="font-semibold text-lg mb-2">{cert.title}</h4>
+                      <p className="text-muted-foreground mb-2">{cert.issuer}</p>
+                      <div className="text-sm text-muted-foreground space-y-1">
+                        <p>Issued {cert.issued}{cert.expires && ` • Expires ${cert.expires}`}</p>
+                        <p>Credential ID: {cert.credentialId}</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
         </div>
         
         <div className="mt-16">
