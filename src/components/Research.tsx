@@ -20,6 +20,11 @@ const Research: React.FC = () => {
       description: "A comprehensive analysis of AI applications in custody services, focusing on improved reporting accuracy, regulatory compliance, and risk mitigation.",
       link: "#",
     },
+    {
+      title: "Automated Interpretation of Financial Regulations Using NLP: A Compliance-Centric Analysis of Legal Texts and Policy Adherence Frameworks",
+      description: "A detailed study on leveraging natural language processing techniques to automate the interpretation of complex financial regulations and enhance compliance frameworks.",
+      link: "#",
+    },
   ];
 
   return (
