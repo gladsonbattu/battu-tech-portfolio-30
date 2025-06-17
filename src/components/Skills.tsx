@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Microsoft, Aws, Oracle } from 'lucide-react';
+import { Award, Cloud, Database } from 'lucide-react';
 
 const Skills: React.FC = () => {
   const techSkills = [
@@ -19,7 +19,7 @@ const Skills: React.FC = () => {
       issued: "Jun 2025",
       expires: "Jun 2026",
       credentialId: "E0103A5CB0039F43",
-      icon: Microsoft
+      icon: Award
     },
     {
       title: "AWS Certified AI Practitioner",
@@ -27,7 +27,7 @@ const Skills: React.FC = () => {
       issued: "May 2025",
       expires: "May 2028",
       credentialId: "AWS0518024",
-      icon: Aws
+      icon: Cloud
     },
     {
       title: "Microsoft Certified: Azure AI Fundamentals",
@@ -35,7 +35,7 @@ const Skills: React.FC = () => {
       issued: "May 2025",
       expires: null,
       credentialId: "CD72BD59DEFBF6C9",
-      icon: Microsoft
+      icon: Award
     },
     {
       title: "Microsoft Certified SQL 2012 Querying Professional",
@@ -43,7 +43,7 @@ const Skills: React.FC = () => {
       issued: "Mar 2015",
       expires: null,
       credentialId: "11761176",
-      icon: Microsoft
+      icon: Award
     },
     {
       title: "Oracle Certified Professional, Java SE 6 Programmer",
@@ -51,7 +51,7 @@ const Skills: React.FC = () => {
       issued: "Aug 2013",
       expires: null,
       credentialId: "OC129117G",
-      icon: Oracle
+      icon: Database
     }
   ];
 
