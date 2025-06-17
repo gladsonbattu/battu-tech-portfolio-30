@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { Award, Cloud, Database } from 'lucide-react';
+import { Award, Cloud, Database, Trophy, Star } from 'lucide-react';
 
 const Skills: React.FC = () => {
   const techSkills = [
@@ -55,6 +54,21 @@ const Skills: React.FC = () => {
       expires: null,
       credentialId: "OC129117G",
       icon: Database
+    }
+  ];
+
+  const awards = [
+    {
+      title: "GL Award",
+      description: "Global Leader Award for Excellence in AI-Driven Financial Technology Transformation",
+      icon: Trophy,
+      link: "https://glawards.org/geol-gladson-battu-receives-global-leader-award-for-excellence-in-ai-driven-financial-technology-transformation/"
+    },
+    {
+      title: "Tampa Bay Observer Recognition",
+      description: "Global Recognition for AI-Driven Securities Innovation",
+      icon: Star,
+      link: "https://tampabayobserver.com/financial-technology-analyst-receives-global-recognition-for-ai-driven-securities-innovation/"
     }
   ];
 
@@ -124,6 +138,38 @@ const Skills: React.FC = () => {
                     CertificationContent
                   )}
                 </div>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Awards & Recognitions Section */}
+        <div className="mt-20">
+          <h3 className="font-semibold text-2xl mb-8">Awards & Recognitions</h3>
+          
+          <div className="grid md:grid-cols-2 gap-6">
+            {awards.map((award, index) => {
+              const IconComponent = award.icon;
+              return (
+                <a 
+                  key={index}
+                  href={award.link} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="block hover:scale-105 transition-transform"
+                >
+                  <div className="bg-white rounded-lg shadow-sm p-6 hover:shadow-md transition-shadow">
+                    <div className="flex items-start gap-4">
+                      <div className="flex-shrink-0">
+                        <IconComponent size={40} className="text-primary" />
+                      </div>
+                      <div className="flex-1">
+                        <h4 className="font-semibold text-lg mb-2">{award.title}</h4>
+                        <p className="text-muted-foreground">{award.description}</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
               );
             })}
           </div>
