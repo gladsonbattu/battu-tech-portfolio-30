@@ -37,7 +37,6 @@ const Header: React.FC = () => {
             <li><a href="#about" className="text-foreground hover:text-primary font-medium transition-colors">About</a></li>
             <li><a href="#skills" className="text-foreground hover:text-primary font-medium transition-colors">Skills</a></li>
             <li><a href="#research" className="text-foreground hover:text-primary font-medium transition-colors">Research</a></li>
-            <li><a href="#blog" className="text-foreground hover:text-primary font-medium transition-colors">Blog</a></li>
             <li><a href="#contact" className="text-foreground hover:text-primary font-medium transition-colors">Contact</a></li>
           </ul>
         </nav>

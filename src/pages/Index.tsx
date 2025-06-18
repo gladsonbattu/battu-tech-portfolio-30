@@ -5,7 +5,6 @@ import Hero from '@/components/Hero';
 import About from '@/components/About';
 import Skills from '@/components/Skills';
 import Research from '@/components/Research';
-import Blog from '@/components/Blog';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 
@@ -45,10 +44,6 @@ const Index = () => {
       
       <div className="fade-in">
         <Research />
-      </div>
-      
-      <div className="fade-in">
-        <Blog />
       </div>
       
       <div className="fade-in">
