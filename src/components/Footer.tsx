@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Footer: React.FC = () => {
@@ -10,8 +9,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <div>
             <h3 className="text-2xl font-bold mb-4">
-              <span className="text-primary">G</span>eol
-              <span className="text-primary">.</span>
+              Geol Gladson Battu
             </h3>
             <p className="text-white/70">
               Leading fintech transformation through AI, ML, and data innovation.

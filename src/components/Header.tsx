@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 
 const Header: React.FC = () => {
@@ -27,8 +26,7 @@ const Header: React.FC = () => {
     >
       <div className="container flex justify-between items-center">
         <a href="#home" className="text-2xl font-bold text-foreground">
-          <span className="text-primary">G</span>eol
-          <span className="text-primary">.</span>
+          Geol Gladson Battu
         </a>
 
         <nav className="hidden md:block">
