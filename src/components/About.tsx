@@ -51,6 +51,43 @@ const About: React.FC = () => {
             </ul>
           </div>
         </div>
+
+        {/* Experience & Projects Section */}
+        <div className="mt-20">
+          <h3 className="font-semibold text-2xl mb-8">Experience & Projects</h3>
+          
+          <div className="space-y-8">
+            <div className="bg-gray-50 p-6 rounded-lg">
+              <h4 className="font-semibold text-xl mb-3">Senior Technology Leader - Citigroup</h4>
+              <p className="text-muted-foreground mb-4">2016 - Present</p>
+              <p className="text-lg leading-relaxed">
+                Leading transformative AI and ML initiatives across securities services, focusing on 
+                modernizing legacy systems and implementing cutting-edge data platforms to enhance 
+                operational efficiency and regulatory compliance.
+              </p>
+            </div>
+            
+            <div className="bg-gray-50 p-6 rounded-lg">
+              <h4 className="font-semibold text-xl mb-3">Enterprise Data Platform Modernization</h4>
+              <p className="text-muted-foreground mb-4">Key Project</p>
+              <p className="text-lg leading-relaxed">
+                Spearheaded the development of next-generation data platforms integrating AI/ML 
+                capabilities for predictive analytics, risk assessment, and automated decision-making 
+                processes across custody and asset servicing operations.
+              </p>
+            </div>
+            
+            <div className="bg-gray-50 p-6 rounded-lg">
+              <h4 className="font-semibold text-xl mb-3">Financial Technology Innovation</h4>
+              <p className="text-muted-foreground mb-4">Ongoing Initiative</p>
+              <p className="text-lg leading-relaxed">
+                Driving innovation in financial services through the implementation of advanced 
+                analytics, machine learning algorithms, and AI-powered solutions that have 
+                significantly improved client experiences and operational outcomes.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
