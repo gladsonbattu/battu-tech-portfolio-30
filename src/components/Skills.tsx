@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Award, Cloud, Database, Trophy, Star } from 'lucide-react';
 
@@ -5,7 +6,7 @@ const Skills: React.FC = () => {
   const techSkills = [
     { name: "Generative AI", specific: "LangChain, LangGraph" },
     { name: "Data Visualizations", specific: "Tableau, Grafana, Qlik" },
-    { name: "Vector DBs", specific: "" },
+    { name: "Microsoft BI", specific: "" },
     { name: "R", specific: "" },
     { name: "Python", specific: "" },
     { name: "SQL", specific: "" },
