@@ -29,6 +29,14 @@ const Research: React.FC = () => {
       title: "An AI-Driven Analytical Framework for Settlement Optimization in Real-time Securities Services Markets",
       description: "A comprehensive framework leveraging artificial intelligence to optimize settlement processes and enhance efficiency in real-time securities trading environments.",
     },
+    {
+      title: "Integrating Cash Equity Trading with Pre-Trade Financing: A Unified Framework for Cost Optimization and T+0 Atomic Settlement",
+      description: "A novel framework that integrates cash equity trading mechanisms with pre-trade financing solutions to achieve cost optimization and enable T+0 atomic settlement processes.",
+    },
+    {
+      title: "SAFRA-NLP: Sentiment-Aware Fraud Detection in Capital Markets Using Deep NLP on Financial News and Investor Communications",
+      description: "An advanced natural language processing approach that combines sentiment analysis with fraud detection techniques to identify suspicious activities in capital markets through analysis of financial news and investor communications.",
+    },
   ];
 
   return (

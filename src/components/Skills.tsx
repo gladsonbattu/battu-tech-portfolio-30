@@ -1,15 +1,14 @@
-
 import React from 'react';
-import { Award, Cloud, Database, Trophy, Star } from 'lucide-react';
+import { Award, Cloud, Database, Trophy, Star, Brain, BarChart3, Building2, Hash, FileCode, Database as Db } from 'lucide-react';
 
 const Skills: React.FC = () => {
   const techSkills = [
-    { name: "Generative AI", specific: "LangChain, LangGraph" },
-    { name: "Data Visualizations", specific: "Tableau, Grafana, Qlik" },
-    { name: "Microsoft BI", specific: "" },
-    { name: "R", specific: "" },
-    { name: "Python", specific: "" },
-    { name: "SQL", specific: "" },
+    { name: "Generative AI", specific: "LangChain, LangGraph", icon: Brain },
+    { name: "Data Visualizations", specific: "Tableau, Grafana, Qlik", icon: BarChart3 },
+    { name: "Microsoft BI", specific: "", icon: Building2 },
+    { name: "R", specific: "", icon: Hash },
+    { name: "Python", specific: "", icon: FileCode },
+    { name: "SQL", specific: "", icon: Db },
   ];
 
   const certifications = [
@@ -79,24 +78,24 @@ const Skills: React.FC = () => {
         <h2 className="section-title">Skills & Tech Stack</h2>
         
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
-          {techSkills.map((skill, index) => (
-            <div 
-              key={index}
-              className="bg-white rounded-lg shadow-sm p-6 flex flex-col items-center text-center hover:shadow-md transition-shadow group"
-            >
-              <div className="w-16 h-16 flex items-center justify-center bg-blue-100 rounded-full mb-4 text-primary group-hover:bg-blue-200 transition-colors">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M12 20h9"></path>
-                  <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
-                </svg>
+          {techSkills.map((skill, index) => {
+            const IconComponent = skill.icon;
+            return (
+              <div 
+                key={index}
+                className="bg-white rounded-lg shadow-sm p-6 flex flex-col items-center text-center hover:shadow-md transition-shadow group"
+              >
+                <div className="w-16 h-16 flex items-center justify-center bg-blue-100 rounded-full mb-4 text-primary group-hover:bg-blue-200 transition-colors">
+                  <IconComponent size={24} />
+                </div>
+                
+                <h3 className="font-semibold text-lg">{skill.name}</h3>
+                {skill.specific && (
+                  <p className="text-sm text-muted-foreground mt-1">{skill.specific}</p>
+                )}
               </div>
-              
-              <h3 className="font-semibold text-lg">{skill.name}</h3>
-              {skill.specific && (
-                <p className="text-sm text-muted-foreground mt-1">{skill.specific}</p>
-              )}
-            </div>
-          ))}
+            );
+          })}
         </div>
 
         {/* Certifications Section */}
