@@ -30,11 +30,11 @@ const About: React.FC = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <span className="text-primary mr-2">•</span>
-                <span>10+ years in financial technology</span>
+                <span>8+ years in financial technology</span>
               </li>
               <li className="flex items-start">
                 <span className="text-primary mr-2">•</span>
-                <span>7+ years at Citigroup</span>
+                <span>8+ years at Citigroup</span>
               </li>
               <li className="flex items-start">
                 <span className="text-primary mr-2">•</span>
@@ -46,15 +46,15 @@ const About: React.FC = () => {
               </li>
               <li className="flex items-start">
                 <span className="text-primary mr-2">•</span>
-                <span>Fintech transformation leader</span>
+                <span>Fintech transformation specialist</span>
               </li>
             </ul>
           </div>
         </div>
 
-        {/* Experience & Projects Section */}
+        {/* Experience Section */}
         <div className="mt-20">
-          <h3 className="font-semibold text-2xl mb-8">Experience & Projects</h3>
+          <h3 className="font-semibold text-2xl mb-8">Experience</h3>
           
           <div className="space-y-8">
             <div className="bg-gray-50 p-6 rounded-lg">
@@ -84,26 +84,6 @@ const About: React.FC = () => {
                 Contributed to the development of business intelligence infrastructure for payment 
                 processing systems, gaining foundational experience in data analytics and financial 
                 technology solutions within the fintech startup environment.
-              </p>
-            </div>
-            
-            <div className="bg-gray-50 p-6 rounded-lg">
-              <h4 className="font-semibold text-xl mb-3">Enterprise Data Platform Modernization</h4>
-              <p className="text-muted-foreground mb-4">Key Project</p>
-              <p className="text-lg leading-relaxed">
-                Spearheaded the development of next-generation data platforms integrating AI/ML 
-                capabilities for predictive analytics, risk assessment, and automated decision-making 
-                processes across custody and asset servicing operations.
-              </p>
-            </div>
-            
-            <div className="bg-gray-50 p-6 rounded-lg">
-              <h4 className="font-semibold text-xl mb-3">Financial Technology Innovation</h4>
-              <p className="text-muted-foreground mb-4">Ongoing Initiative</p>
-              <p className="text-lg leading-relaxed">
-                Driving innovation in financial services through the implementation of advanced 
-                analytics, machine learning algorithms, and AI-powered solutions that have 
-                significantly improved client experiences and operational outcomes.
               </p>
             </div>
           </div>
