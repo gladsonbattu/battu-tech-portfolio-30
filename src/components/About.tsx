@@ -10,7 +10,7 @@ const About: React.FC = () => {
         <div className="grid md:grid-cols-[2fr_1fr] gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg leading-relaxed">
-              With over a decade of experience in financial technology innovation, Geol Gladson Battu 
+              With a decade of experience in financial technology innovation, Geol Gladson Battu 
               stands at the forefront of integrating artificial intelligence (AI), machine learning (ML), 
               and predictive analytics into the financial services sector. His expertise in building 
               enterprise-scale data platforms has revolutionized how securities services operate—enhancing 
@@ -30,7 +30,7 @@ const About: React.FC = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <span className="text-primary mr-2">•</span>
-                <span>8+ years in financial technology</span>
+                <span>9+ years in financial technology</span>
               </li>
               <li className="flex items-start">
                 <span className="text-primary mr-2">•</span>
@@ -73,7 +73,7 @@ const About: React.FC = () => {
               <p className="text-lg leading-relaxed">
                 Developed and maintained business intelligence solutions, creating data warehouses and 
                 analytical reporting systems that supported strategic decision-making processes across 
-                multiple client organizations in the financial services sector.
+                multiple client organizations for Microsoft.
               </p>
             </div>
             
@@ -85,6 +85,23 @@ const About: React.FC = () => {
                 processing systems, gaining foundational experience in data analytics and financial 
                 technology solutions within the fintech startup environment.
               </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Education Section */}
+        <div className="mt-20">
+          <h3 className="font-semibold text-2xl mb-8">Education</h3>
+          
+          <div className="space-y-8">
+            <div className="bg-gray-50 p-6 rounded-lg">
+              <h4 className="font-semibold text-xl mb-3">Doctorate in Business Administration</h4>
+              <p className="text-muted-foreground mb-4">Indiana Wesleyan University • May 2025 - Ongoing</p>
+            </div>
+            
+            <div className="bg-gray-50 p-6 rounded-lg">
+              <h4 className="font-semibold text-xl mb-3">Master of Science in Information Technology</h4>
+              <p className="text-muted-foreground mb-4">University of South Florida • August 2015 - December 2016</p>
             </div>
           </div>
         </div>
