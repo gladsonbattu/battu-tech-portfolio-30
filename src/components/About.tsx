@@ -18,7 +18,7 @@ const About: React.FC = () => {
             </p>
             
             <p className="text-lg leading-relaxed">
-              As a senior technology leader at Citigroup for the past eight years, Mr. Battu has led 
+              As a senior technology analyst at Citigroup for the past seven years, Mr. Battu has led 
               transformative projects aimed at modernizing legacy infrastructures. His strategic leadership 
               has optimized custody services, asset servicing, settlement processes, and risk operations, 
               mitigating systemic risks and driving next-generation efficiencies.
@@ -34,7 +34,7 @@ const About: React.FC = () => {
               </li>
               <li className="flex items-start">
                 <span className="text-primary mr-2">•</span>
-                <span>8 years at Citigroup</span>
+                <span>7+ years at Citigroup</span>
               </li>
               <li className="flex items-start">
                 <span className="text-primary mr-2">•</span>
@@ -58,12 +58,32 @@ const About: React.FC = () => {
           
           <div className="space-y-8">
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h4 className="font-semibold text-xl mb-3">Senior Technology Leader - Citigroup</h4>
-              <p className="text-muted-foreground mb-4">2016 - Present</p>
+              <h4 className="font-semibold text-xl mb-3">Senior Technology Analyst - Citigroup</h4>
+              <p className="text-muted-foreground mb-4">March 2017 - Present</p>
               <p className="text-lg leading-relaxed">
                 Leading transformative AI and ML initiatives across securities services, focusing on 
                 modernizing legacy systems and implementing cutting-edge data platforms to enhance 
                 operational efficiency and regulatory compliance.
+              </p>
+            </div>
+            
+            <div className="bg-gray-50 p-6 rounded-lg">
+              <h4 className="font-semibold text-xl mb-3">BI Engineer - Infosys</h4>
+              <p className="text-muted-foreground mb-4">September 2013 - July 2015</p>
+              <p className="text-lg leading-relaxed">
+                Developed and maintained business intelligence solutions, creating data warehouses and 
+                analytical reporting systems that supported strategic decision-making processes across 
+                multiple client organizations in the financial services sector.
+              </p>
+            </div>
+            
+            <div className="bg-gray-50 p-6 rounded-lg">
+              <h4 className="font-semibold text-xl mb-3">BI Intern - Zwitch Payments</h4>
+              <p className="text-muted-foreground mb-4">July 2012 - July 2013</p>
+              <p className="text-lg leading-relaxed">
+                Contributed to the development of business intelligence infrastructure for payment 
+                processing systems, gaining foundational experience in data analytics and financial 
+                technology solutions within the fintech startup environment.
               </p>
             </div>
             

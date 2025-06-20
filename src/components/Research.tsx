@@ -37,6 +37,10 @@ const Research: React.FC = () => {
       title: "SAFRA-NLP: Sentiment-Aware Fraud Detection in Capital Markets Using Deep NLP on Financial News and Investor Communications",
       description: "An advanced natural language processing approach that combines sentiment analysis with fraud detection techniques to identify suspicious activities in capital markets through analysis of financial news and investor communications.",
     },
+    {
+      title: "Enhancing Suspicious Activity reporting with Generative AI: Accuracy, Efficiency and Compliance",
+      description: "A comprehensive study on leveraging generative artificial intelligence to improve suspicious activity reporting processes, focusing on enhanced accuracy, operational efficiency, and regulatory compliance in financial institutions.",
+    },
   ];
 
   return (
