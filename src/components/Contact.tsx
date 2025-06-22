@@ -4,6 +4,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Button } from '@/components/ui/button';
 import { useToast } from '@/hooks/use-toast';
+import { Linkedin } from 'lucide-react';
 
 const Contact: React.FC = () => {
   const { toast } = useToast();
@@ -65,11 +66,11 @@ const Contact: React.FC = () => {
               
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-primary">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-                  </svg>
+                  <Linkedin size={18} />
                 </div>
-                <span className="text-muted-foreground">Social Media</span>
+                <a href="https://www.linkedin.com/in/geolgladsonbattu/" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary">
+                  LinkedIn Profile
+                </a>
               </div>
             </div>
           </div>
