@@ -93,7 +93,7 @@ const About: React.FC = () => {
         <div className="mt-20">
           <h3 className="font-semibold text-2xl mb-8">Education</h3>
           
-          <div className="space-y-8">
+          <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-gray-50 p-6 rounded-lg">
               <h4 className="font-semibold text-xl mb-3">Doctorate in Business Administration</h4>
               <p className="text-muted-foreground mb-4">Indiana Wesleyan University • May 2025 - Ongoing</p>
