@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Award, Cloud, Database, Trophy, Star, Brain, BarChart3, Building2, Hash, FileCode, Database as Db } from 'lucide-react';
 
@@ -172,76 +173,6 @@ const Skills: React.FC = () => {
                 </a>
               );
             })}
-          </div>
-        </div>
-        
-        <div className="mt-16">
-          <h3 className="font-semibold text-xl mb-6">Areas of Expertise</h3>
-          
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="space-y-4">
-              <div className="flex flex-col">
-                <div className="flex justify-between mb-1">
-                  <span className="font-medium">Financial Systems</span>
-                  <span>95%</span>
-                </div>
-                <div className="h-2 bg-blue-100 rounded-full overflow-hidden">
-                  <div className="bg-primary h-full rounded-full" style={{ width: '95%' }}></div>
-                </div>
-              </div>
-              
-              <div className="flex flex-col">
-                <div className="flex justify-between mb-1">
-                  <span className="font-medium">AI Implementation</span>
-                  <span>90%</span>
-                </div>
-                <div className="h-2 bg-blue-100 rounded-full overflow-hidden">
-                  <div className="bg-primary h-full rounded-full" style={{ width: '90%' }}></div>
-                </div>
-              </div>
-              
-              <div className="flex flex-col">
-                <div className="flex justify-between mb-1">
-                  <span className="font-medium">Data Engineering</span>
-                  <span>85%</span>
-                </div>
-                <div className="h-2 bg-blue-100 rounded-full overflow-hidden">
-                  <div className="bg-primary h-full rounded-full" style={{ width: '85%' }}></div>
-                </div>
-              </div>
-            </div>
-            
-            <div className="space-y-4">
-              <div className="flex flex-col">
-                <div className="flex justify-between mb-1">
-                  <span className="font-medium">Team Leadership</span>
-                  <span>90%</span>
-                </div>
-                <div className="h-2 bg-blue-100 rounded-full overflow-hidden">
-                  <div className="bg-primary h-full rounded-full" style={{ width: '90%' }}></div>
-                </div>
-              </div>
-              
-              <div className="flex flex-col">
-                <div className="flex justify-between mb-1">
-                  <span className="font-medium">Strategic Planning</span>
-                  <span>95%</span>
-                </div>
-                <div className="h-2 bg-blue-100 rounded-full overflow-hidden">
-                  <div className="bg-primary h-full rounded-full" style={{ width: '95%' }}></div>
-                </div>
-              </div>
-              
-              <div className="flex flex-col">
-                <div className="flex justify-between mb-1">
-                  <span className="font-medium">Risk Management</span>
-                  <span>85%</span>
-                </div>
-                <div className="h-2 bg-blue-100 rounded-full overflow-hidden">
-                  <div className="bg-primary h-full rounded-full" style={{ width: '85%' }}></div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>

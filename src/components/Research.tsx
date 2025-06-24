@@ -43,6 +43,15 @@ const Research: React.FC = () => {
     },
   ];
 
+  const recommendations = [
+    { title: "AI-Driven Risk Management Systems", author: "Dr. Sarah Chen" },
+    { title: "Modern Securities Processing Architecture", author: "Michael Rodriguez" },
+    { title: "Regulatory Compliance Through Technology", author: "Jennifer Walsh" },
+    { title: "Data Platform Innovation in Finance", author: "Robert Kim" },
+    { title: "Legacy System Modernization Strategy", author: "Amanda Foster" },
+    { title: "Predictive Analytics in Asset Servicing", author: "David Thompson" }
+  ];
+
   return (
     <section id="research" className="py-20 bg-white section-padding">
       <div className="container">
@@ -81,6 +90,27 @@ const Research: React.FC = () => {
               <p className="text-muted-foreground">{paper.description}</p>
             </div>
           ))}
+        </div>
+
+        {/* Recommendations Section */}
+        <div className="mt-20 fade-in">
+          <h3 className="font-semibold text-2xl mb-8">Recommendations</h3>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {recommendations.map((recommendation, index) => (
+              <div 
+                key={index}
+                className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-all duration-300 hover-scale cursor-pointer group"
+              >
+                <h4 className="font-semibold text-lg mb-3 group-hover:text-primary transition-colors">
+                  {recommendation.title}
+                </h4>
+                <p className="text-muted-foreground">
+                  — {recommendation.author}
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
