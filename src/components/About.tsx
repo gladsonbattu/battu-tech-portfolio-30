@@ -1,12 +1,22 @@
+
 import React from 'react';
 
 const About: React.FC = () => {
+  const recommendations = [
+    { title: "AI-Driven Risk Management Systems", author: "Dr. Sarah Chen" },
+    { title: "Modern Securities Processing Architecture", author: "Michael Rodriguez" },
+    { title: "Regulatory Compliance Through Technology", author: "Jennifer Walsh" },
+    { title: "Data Platform Innovation in Finance", author: "Robert Kim" },
+    { title: "Legacy System Modernization Strategy", author: "Amanda Foster" },
+    { title: "Predictive Analytics in Asset Servicing", author: "David Thompson" }
+  ];
+
   return (
     <section id="about" className="py-20 bg-white section-padding">
       <div className="container">
-        <h2 className="section-title">About Me</h2>
+        <h2 className="section-title fade-in">About Me</h2>
         
-        <div className="grid md:grid-cols-[2fr_1fr] gap-12 items-center">
+        <div className="grid md:grid-cols-[2fr_1fr] gap-12 items-center fade-in">
           <div className="space-y-6">
             <p className="text-lg leading-relaxed">
               With a decade of experience in financial technology innovation, I, Geol Gladson Battu, 
@@ -51,12 +61,104 @@ const About: React.FC = () => {
           </div>
         </div>
 
+        {/* Areas of Expertise Section - Moved up */}
+        <div className="mt-20 fade-in">
+          <h3 className="font-semibold text-2xl mb-8">Areas of Expertise</h3>
+          
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="space-y-4">
+              <div className="flex flex-col hover-scale">
+                <div className="flex justify-between mb-1">
+                  <span className="font-medium">Financial Systems</span>
+                  <span>95%</span>
+                </div>
+                <div className="h-2 bg-blue-100 rounded-full overflow-hidden">
+                  <div className="bg-primary h-full rounded-full transition-all duration-1000" style={{ width: '95%' }}></div>
+                </div>
+              </div>
+              
+              <div className="flex flex-col hover-scale">
+                <div className="flex justify-between mb-1">
+                  <span className="font-medium">AI Implementation</span>
+                  <span>90%</span>
+                </div>
+                <div className="h-2 bg-blue-100 rounded-full overflow-hidden">
+                  <div className="bg-primary h-full rounded-full transition-all duration-1000" style={{ width: '90%' }}></div>
+                </div>
+              </div>
+              
+              <div className="flex flex-col hover-scale">
+                <div className="flex justify-between mb-1">
+                  <span className="font-medium">Data Engineering</span>
+                  <span>85%</span>
+                </div>
+                <div className="h-2 bg-blue-100 rounded-full overflow-hidden">
+                  <div className="bg-primary h-full rounded-full transition-all duration-1000" style={{ width: '85%' }}></div>
+                </div>
+              </div>
+            </div>
+            
+            <div className="space-y-4">
+              <div className="flex flex-col hover-scale">
+                <div className="flex justify-between mb-1">
+                  <span className="font-medium">Team Leadership</span>
+                  <span>90%</span>
+                </div>
+                <div className="h-2 bg-blue-100 rounded-full overflow-hidden">
+                  <div className="bg-primary h-full rounded-full transition-all duration-1000" style={{ width: '90%' }}></div>
+                </div>
+              </div>
+              
+              <div className="flex flex-col hover-scale">
+                <div className="flex justify-between mb-1">
+                  <span className="font-medium">Strategic Planning</span>
+                  <span>95%</span>
+                </div>
+                <div className="h-2 bg-blue-100 rounded-full overflow-hidden">
+                  <div className="bg-primary h-full rounded-full transition-all duration-1000" style={{ width: '95%' }}></div>
+                </div>
+              </div>
+              
+              <div className="flex flex-col hover-scale">
+                <div className="flex justify-between mb-1">
+                  <span className="font-medium">Risk Management</span>
+                  <span>85%</span>
+                </div>
+                <div className="h-2 bg-blue-100 rounded-full overflow-hidden">
+                  <div className="bg-primary h-full rounded-full transition-all duration-1000" style={{ width: '85%' }}></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Recommendations Section */}
+        <div className="mt-20 fade-in">
+          <h3 className="font-semibold text-2xl mb-8">Recommendations</h3>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {recommendations.map((recommendation, index) => (
+              <div 
+                key={index}
+                className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-all duration-300 hover-scale cursor-pointer group"
+              >
+                <h4 className="font-semibold text-lg mb-3 group-hover:text-primary transition-colors">
+                  {recommendation.title}
+                </h4>
+                <p className="text-muted-foreground">
+                  — {recommendation.author}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+
         {/* Experience Section */}
-        <div className="mt-20">
+        <div className="mt-20 fade-in">
           <h3 className="font-semibold text-2xl mb-8">Experience</h3>
           
           <div className="space-y-8">
-            <div className="bg-gray-50 p-6 rounded-lg">
+            <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-all duration-300 hover-scale">
               <h4 className="font-semibold text-xl mb-3">Senior Technology Analyst - Citigroup</h4>
               <p className="text-muted-foreground mb-4">March 2017 - Present</p>
               <p className="text-lg leading-relaxed">
@@ -66,7 +168,7 @@ const About: React.FC = () => {
               </p>
             </div>
             
-            <div className="bg-gray-50 p-6 rounded-lg">
+            <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-all duration-300 hover-scale">
               <h4 className="font-semibold text-xl mb-3">BI Engineer - Infosys</h4>
               <p className="text-muted-foreground mb-4">September 2013 - July 2015</p>
               <p className="text-lg leading-relaxed">
@@ -76,7 +178,7 @@ const About: React.FC = () => {
               </p>
             </div>
             
-            <div className="bg-gray-50 p-6 rounded-lg">
+            <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-all duration-300 hover-scale">
               <h4 className="font-semibold text-xl mb-3">BI Intern - Zwitch Payments</h4>
               <p className="text-muted-foreground mb-4">July 2012 - July 2013</p>
               <p className="text-lg leading-relaxed">
@@ -89,16 +191,16 @@ const About: React.FC = () => {
         </div>
 
         {/* Education Section */}
-        <div className="mt-20">
+        <div className="mt-20 fade-in">
           <h3 className="font-semibold text-2xl mb-8">Education</h3>
           
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-gray-50 p-6 rounded-lg">
+            <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-all duration-300 hover-scale">
               <h4 className="font-semibold text-xl mb-3">Doctorate in Business Administration</h4>
               <p className="text-muted-foreground mb-4">Indiana Wesleyan University • May 2025 - Ongoing</p>
             </div>
             
-            <div className="bg-gray-50 p-6 rounded-lg">
+            <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-all duration-300 hover-scale">
               <h4 className="font-semibold text-xl mb-3">Master of Science in Information Technology</h4>
               <p className="text-muted-foreground mb-4">University of South Florida • August 2015 - December 2016</p>
             </div>

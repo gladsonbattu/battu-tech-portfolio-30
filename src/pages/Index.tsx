@@ -21,6 +21,19 @@ const Index = () => {
           element.classList.add('visible');
         }
       });
+
+      // Add spotlight effect to elements in viewport
+      const spotlightElements = document.querySelectorAll('.hover-scale');
+      spotlightElements.forEach((element) => {
+        const rect = element.getBoundingClientRect();
+        const isVisible = rect.top < window.innerHeight && rect.bottom > 0;
+        
+        if (isVisible) {
+          element.classList.add('spotlight');
+        } else {
+          element.classList.remove('spotlight');
+        }
+      });
     };
     
     window.addEventListener('scroll', handleScroll);
