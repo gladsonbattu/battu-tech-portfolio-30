@@ -76,7 +76,7 @@ const Skills: React.FC = () => {
   return (
     <section id="skills" className="py-20 bg-blue-50 section-padding">
       <div className="container">
-        <h2 className="section-title">Skills & Tech Stack</h2>
+        <h2 className="section-title scroll-animate">Skills & Tech Stack</h2>
         
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
           {techSkills.map((skill, index) => {
@@ -84,9 +84,9 @@ const Skills: React.FC = () => {
             return (
               <div 
                 key={index}
-                className="bg-white rounded-lg shadow-sm p-6 flex flex-col items-center text-center hover:shadow-md transition-shadow group"
+                className={`bg-white rounded-lg shadow-sm p-6 flex flex-col items-center text-center hover:shadow-md transition-shadow group scroll-animate stagger-${(index % 6) + 1}`}
               >
-                <div className="w-16 h-16 flex items-center justify-center bg-blue-100 rounded-full mb-4 text-primary group-hover:bg-blue-200 transition-colors">
+                <div className="w-16 h-16 flex items-center justify-center bg-blue-100 rounded-full mb-4 text-primary group-hover:bg-blue-200 transition-colors float">
                   <IconComponent size={24} />
                 </div>
                 
@@ -101,16 +101,16 @@ const Skills: React.FC = () => {
 
         {/* Certifications Section */}
         <div className="mt-20">
-          <h3 className="font-semibold text-2xl mb-8">Certifications</h3>
+          <h3 className="font-semibold text-2xl mb-8 scroll-animate">Certifications</h3>
           
           <div className="grid md:grid-cols-2 gap-6">
             {certifications.map((cert, index) => {
               const IconComponent = cert.icon;
               const CertificationContent = (
-                <div className="bg-white rounded-lg shadow-sm p-6 hover:shadow-md transition-shadow">
+                <div className={`bg-white rounded-lg shadow-sm p-6 hover:shadow-md transition-shadow scroll-animate stagger-${(index % 3) + 1}`}>
                   <div className="flex items-start gap-4">
                     <div className="flex-shrink-0">
-                      <IconComponent size={40} className="text-primary" />
+                      <IconComponent size={40} className="text-primary pulse-glow" />
                     </div>
                     <div className="flex-1">
                       <h4 className="font-semibold text-lg mb-2">{cert.title}</h4>
@@ -146,7 +146,7 @@ const Skills: React.FC = () => {
 
         {/* Awards & Recognitions Section */}
         <div className="mt-20">
-          <h3 className="font-semibold text-2xl mb-8">Awards & Recognitions</h3>
+          <h3 className="font-semibold text-2xl mb-8 scroll-animate">Awards & Recognitions</h3>
           
           <div className="grid md:grid-cols-2 gap-6">
             {awards.map((award, index) => {
@@ -159,10 +159,10 @@ const Skills: React.FC = () => {
                   rel="noopener noreferrer"
                   className="block hover:scale-105 transition-transform"
                 >
-                  <div className="bg-white rounded-lg shadow-sm p-6 hover:shadow-md transition-shadow">
+                  <div className={`bg-white rounded-lg shadow-sm p-6 hover:shadow-md transition-shadow scroll-animate stagger-${index + 1}`}>
                     <div className="flex items-start gap-4">
                       <div className="flex-shrink-0">
-                        <IconComponent size={40} className="text-primary" />
+                        <IconComponent size={40} className="text-primary rotate-on-scroll" />
                       </div>
                       <div className="flex-1">
                         <h4 className="font-semibold text-lg mb-2">{award.title}</h4>

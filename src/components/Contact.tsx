@@ -42,18 +42,18 @@ const Contact: React.FC = () => {
   return (
     <section id="contact" className="py-20 bg-white section-padding">
       <div className="container">
-        <h2 className="section-title">Get in Touch</h2>
+        <h2 className="section-title scroll-animate">Get in Touch</h2>
         
         <div className="grid md:grid-cols-[1fr_1.5fr] gap-12">
-          <div>
+          <div className="scroll-animate stagger-1">
             <h3 className="text-xl font-semibold mb-4">Contact Information</h3>
             <p className="text-muted-foreground mb-6">
               Feel free to reach out with questions, opportunities, or just to connect.
             </p>
             
             <div className="space-y-4">
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-primary">
+              <div className="flex items-center gap-3 scroll-animate stagger-2">
+                <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-primary pulse-glow">
                   <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
                     <polyline points="22,6 12,13 2,6"></polyline>
@@ -64,8 +64,8 @@ const Contact: React.FC = () => {
                 </a>
               </div>
               
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-primary">
+              <div className="flex items-center gap-3 scroll-animate stagger-3">
+                <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-primary pulse-glow">
                   <Linkedin size={18} />
                 </div>
                 <a href="https://www.linkedin.com/in/geolgladsonbattu/" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary">
@@ -75,11 +75,11 @@ const Contact: React.FC = () => {
             </div>
           </div>
           
-          <div className="bg-blue-50 p-8 rounded-lg">
+          <div className="bg-blue-50 p-8 rounded-lg scroll-animate stagger-4">
             <h3 className="text-xl font-semibold mb-4">Send a Message</h3>
             
             <form onSubmit={handleSubmit} className="space-y-6">
-              <div>
+              <div className="scroll-animate stagger-5">
                 <label htmlFor="name" className="block text-sm font-medium mb-1">
                   Name
                 </label>
@@ -94,7 +94,7 @@ const Contact: React.FC = () => {
                 />
               </div>
               
-              <div>
+              <div className="scroll-animate stagger-6">
                 <label htmlFor="email" className="block text-sm font-medium mb-1">
                   Email
                 </label>
@@ -109,7 +109,7 @@ const Contact: React.FC = () => {
                 />
               </div>
               
-              <div>
+              <div className="scroll-animate stagger-1">
                 <label htmlFor="message" className="block text-sm font-medium mb-1">
                   Message
                 </label>
@@ -124,7 +124,7 @@ const Contact: React.FC = () => {
                 />
               </div>
               
-              <Button type="submit" className="w-full" disabled={isSubmitting}>
+              <Button type="submit" className="w-full scroll-animate stagger-2" disabled={isSubmitting}>
                 {isSubmitting ? "Sending..." : "Send Message"}
               </Button>
             </form>

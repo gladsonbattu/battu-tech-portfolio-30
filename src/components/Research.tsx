@@ -55,9 +55,9 @@ const Research: React.FC = () => {
   return (
     <section id="research" className="py-20 bg-white section-padding">
       <div className="container">
-        <h2 className="section-title">Research & Publications</h2>
+        <h2 className="section-title scroll-animate">Research & Publications</h2>
         
-        <div className="mb-8 text-center">
+        <div className="mb-8 text-center scroll-animate">
           <Button asChild variant="outline" className="group">
             <a href="https://orcid.org/0009-0006-7343-5533" target="_blank" rel="noopener noreferrer">
               Research ORCID Profile
@@ -84,7 +84,7 @@ const Research: React.FC = () => {
           {papers.map((paper, index) => (
             <div 
               key={index} 
-              className="bg-blue-50 rounded-lg p-8 hover:shadow-md transition-shadow"
+              className={`bg-blue-50 rounded-lg p-8 hover:shadow-md transition-shadow scroll-animate stagger-${(index % 6) + 1}`}
             >
               <h3 className="text-xl font-semibold mb-3">{paper.title}</h3>
               <p className="text-muted-foreground">{paper.description}</p>
@@ -93,14 +93,14 @@ const Research: React.FC = () => {
         </div>
 
         {/* Recommendations Section */}
-        <div className="mt-20 fade-in">
-          <h3 className="font-semibold text-2xl mb-8">Recommendations</h3>
+        <div className="mt-20">
+          <h3 className="font-semibold text-2xl mb-8 scroll-animate">Recommendations</h3>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {recommendations.map((recommendation, index) => (
               <div 
                 key={index}
-                className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-all duration-300 hover-scale cursor-pointer group"
+                className={`bg-gray-50 p-6 rounded-lg hover:shadow-md transition-all duration-300 hover-scale cursor-pointer group scroll-animate stagger-${(index % 3) + 1}`}
               >
                 <h4 className="font-semibold text-lg mb-3 group-hover:text-primary transition-colors">
                   {recommendation.title}
