@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const About: React.FC = () => {
@@ -10,16 +9,16 @@ const About: React.FC = () => {
         <div className="grid md:grid-cols-[2fr_1fr] gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg leading-relaxed">
-              With a decade of experience in financial technology innovation, Geol Gladson Battu 
-              stands at the forefront of integrating artificial intelligence (AI), machine learning (ML), 
-              and predictive analytics into the financial services sector. His expertise in building 
+              With a decade of experience in financial technology innovation, I, Geol Gladson Battu, 
+              stand at the forefront of integrating artificial intelligence (AI), machine learning (ML), 
+              and predictive analytics into the financial services sector. My expertise in building 
               enterprise-scale data platforms has revolutionized how securities services operate—enhancing 
               operational efficiency, boosting regulatory compliance, and elevating client experiences.
             </p>
             
             <p className="text-lg leading-relaxed">
-              As a senior technology analyst at Citigroup for the past seven years, Mr. Battu has led 
-              transformative projects aimed at modernizing legacy infrastructures. His strategic leadership 
+              As a senior technology analyst at Citigroup for the past 8+ years, I have led 
+              transformative projects aimed at modernizing legacy infrastructures. My strategic leadership 
               has optimized custody services, asset servicing, settlement processes, and risk operations, 
               mitigating systemic risks and driving next-generation efficiencies.
             </p>
