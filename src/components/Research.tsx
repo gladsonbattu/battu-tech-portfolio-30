@@ -1,10 +1,14 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 
 interface ResearchPaper {
   title: string;
   description: string;
+}
+
+interface Award {
+  title: string;
+  organization: string;
 }
 
 const Research: React.FC = () => {
@@ -47,6 +51,17 @@ const Research: React.FC = () => {
     },
   ];
 
+  const awards: Award[] = [
+    {
+      title: "IEEE Member - Graduate Student Member",
+      organization: "Institute of Electrical and Electronics Engineers"
+    },
+    {
+      title: "IJCET Journal Peer Reviewer",
+      organization: "International Journal of Computer Engineering and Technology"
+    }
+  ];
+
   const recommendations = [
     { title: "AI-Driven Risk Management Systems", author: "Dr. Sarah Chen" },
     { title: "Modern Securities Processing Architecture", author: "Michael Rodriguez" },
@@ -59,7 +74,7 @@ const Research: React.FC = () => {
   return (
     <section id="research" className="py-20 bg-white section-padding">
       <div className="container">
-        <h2 className="section-title scroll-animate">Research & Publications</h2>
+        <h2 className="section-title scroll-animate">Research Publications</h2>
         
         <div className="mb-8 text-center scroll-animate">
           <Button asChild variant="outline" className="group">
@@ -94,6 +109,27 @@ const Research: React.FC = () => {
               <p className="text-muted-foreground">{paper.description}</p>
             </div>
           ))}
+        </div>
+
+        {/* Awards & Recognitions Section */}
+        <div className="mt-20">
+          <h3 className="font-semibold text-2xl mb-8 scroll-animate">Awards & Recognitions</h3>
+          
+          <div className="grid md:grid-cols-2 gap-6">
+            {awards.map((award, index) => (
+              <div 
+                key={index}
+                className={`bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg hover:shadow-md transition-all duration-300 hover-scale cursor-pointer group scroll-animate stagger-${(index % 2) + 1}`}
+              >
+                <h4 className="font-semibold text-lg mb-2 group-hover:text-primary transition-colors">
+                  {award.title}
+                </h4>
+                <p className="text-muted-foreground text-sm">
+                  {award.organization}
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
 
         {/* Recommendations Section */}
