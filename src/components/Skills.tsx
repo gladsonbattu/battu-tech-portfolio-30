@@ -70,6 +70,16 @@ const Skills: React.FC = () => {
       description: "Global Recognition for AI-Driven Securities Innovation",
       icon: Star,
       link: "https://tampabayobserver.com/financial-technology-analyst-receives-global-recognition-for-ai-driven-securities-innovation/"
+    },
+    {
+      title: "IEEE Member - Graduate Student Member",
+      description: "Institute of Electrical and Electronics Engineers",
+      icon: Award
+    },
+    {
+      title: "IJCET Journal Peer Reviewer",
+      description: "International Journal of Computer Engineering and Technology",
+      icon: Award
     }
   ];
 
@@ -151,26 +161,35 @@ const Skills: React.FC = () => {
           <div className="grid md:grid-cols-2 gap-6">
             {awards.map((award, index) => {
               const IconComponent = award.icon;
-              return (
-                <a 
-                  key={index}
-                  href={award.link} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="block hover:scale-105 transition-transform"
-                >
-                  <div className={`bg-white rounded-lg shadow-sm p-6 hover:shadow-md transition-shadow scroll-animate stagger-${index + 1}`}>
-                    <div className="flex items-start gap-4">
-                      <div className="flex-shrink-0">
-                        <IconComponent size={40} className="text-primary rotate-on-scroll" />
-                      </div>
-                      <div className="flex-1">
-                        <h4 className="font-semibold text-lg mb-2">{award.title}</h4>
-                        <p className="text-muted-foreground">{award.description}</p>
-                      </div>
+              const AwardContent = (
+                <div className={`bg-white rounded-lg shadow-sm p-6 hover:shadow-md transition-shadow scroll-animate stagger-${(index % 2) + 1}`}>
+                  <div className="flex items-start gap-4">
+                    <div className="flex-shrink-0">
+                      <IconComponent size={40} className="text-primary rotate-on-scroll" />
+                    </div>
+                    <div className="flex-1">
+                      <h4 className="font-semibold text-lg mb-2">{award.title}</h4>
+                      <p className="text-muted-foreground">{award.description}</p>
                     </div>
                   </div>
-                </a>
+                </div>
+              );
+
+              return (
+                <div key={index}>
+                  {award.link ? (
+                    <a 
+                      href={award.link} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="block hover:scale-105 transition-transform"
+                    >
+                      {AwardContent}
+                    </a>
+                  ) : (
+                    AwardContent
+                  )}
+                </div>
               );
             })}
           </div>
