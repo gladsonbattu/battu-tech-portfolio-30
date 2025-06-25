@@ -48,7 +48,7 @@ const Index = () => {
       });
 
       // Parallax effect for hero section
-      const heroSection = document.querySelector('#home');
+      const heroSection = document.querySelector('#home') as HTMLElement;
       if (heroSection) {
         const scrolled = window.pageYOffset;
         const rate = scrolled * -0.5;
@@ -60,7 +60,7 @@ const Index = () => {
       rotateElements.forEach((element) => {
         const scrolled = window.pageYOffset;
         const rate = scrolled * 0.1;
-        element.style.transform = `rotate(${rate}deg)`;
+        (element as HTMLElement).style.transform = `rotate(${rate}deg)`;
       });
     };
     

@@ -10,6 +10,10 @@ interface ResearchPaper {
 const Research: React.FC = () => {
   const papers: ResearchPaper[] = [
     {
+      title: "Money Laundering Prediction Model using Multivariate Time Series Forecasting using dynamic graph neural ODEs",
+      description: "A novel approach combining multivariate time series forecasting with dynamic graph neural ordinary differential equations to predict and detect money laundering patterns in financial transactions.",
+    },
+    {
       title: "AI-Powered Financial Forensics in Automating Anomaly Detection and AML Compliance",
       description: "An exploration of how artificial intelligence is revolutionizing financial crime detection and anti-money laundering compliance processes.",
     },
