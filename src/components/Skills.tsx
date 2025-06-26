@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Award, Cloud, Database, Trophy, Star, Brain, BarChart3, Building2, Hash, FileCode, Database as Db } from 'lucide-react';
+import { Award, Cloud, Database, Trophy, Star, Brain, BarChart3, Building2, Hash, FileCode, Database as Db, BookOpen } from 'lucide-react';
 
 const Skills: React.FC = () => {
   const techSkills = [
@@ -70,6 +70,11 @@ const Skills: React.FC = () => {
       description: "Global Recognition for AI-Driven Securities Innovation",
       icon: Star,
       link: "https://tampabayobserver.com/financial-technology-analyst-receives-global-recognition-for-ai-driven-securities-innovation/"
+    },
+    {
+      title: "Paper Presentation",
+      description: "5th International Conference on Application of Artificial Intelligence at Crown University USA",
+      icon: BookOpen
     },
     {
       title: "IEEE Member - Graduate Student Member",
