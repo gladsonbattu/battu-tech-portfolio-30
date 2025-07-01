@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Award, Cloud, Database, Trophy, Star, Brain, BarChart3, Building2, Hash, FileCode, Database as Db, BookOpen, ExternalLink } from 'lucide-react';
 
@@ -218,9 +217,9 @@ const Skills: React.FC = () => {
           </div>
         </div>
 
-        {/* IEEE Conferences Section */}
+        {/* IEEE Conference Papers Section */}
         <div className="mt-20">
-          <h3 className="font-semibold text-2xl mb-8 scroll-animate">IEEE Conferences</h3>
+          <h3 className="font-semibold text-2xl mb-8 scroll-animate">IEEE Conference Papers</h3>
           
           <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-6">
             {ieeeConferences.map((conference, index) => (

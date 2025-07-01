@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const About: React.FC = () => {
@@ -30,7 +29,7 @@ const About: React.FC = () => {
             <ul className="space-y-3">
               <li className="flex items-start scroll-animate stagger-4">
                 <span className="text-primary mr-2">•</span>
-                <span>9+ years in financial technology</span>
+                <span>10 years in financial technology</span>
               </li>
               <li className="flex items-start scroll-animate stagger-5">
                 <span className="text-primary mr-2">•</span>
