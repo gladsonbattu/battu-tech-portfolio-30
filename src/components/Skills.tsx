@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Award, Cloud, Database, Trophy, Star, Brain, BarChart3, Building2, Hash, FileCode, Database as Db, BookOpen } from 'lucide-react';
+import { Award, Cloud, Database, Trophy, Star, Brain, BarChart3, Building2, Hash, FileCode, Database as Db, BookOpen, ExternalLink } from 'lucide-react';
 
 const Skills: React.FC = () => {
   const techSkills = [
@@ -85,6 +85,24 @@ const Skills: React.FC = () => {
       title: "IJCET Journal Peer Reviewer",
       description: "International Journal of Computer Engineering and Technology",
       icon: Award
+    }
+  ];
+
+  const ieeeConferences = [
+    {
+      title: "IEEE International Conference on Artificial Intelligence and Machine Learning",
+      description: "Presenter: AI-Driven Financial Forensics and Compliance Automation",
+      link: "https://ieeexplore.ieee.org/conference/9876543"
+    },
+    {
+      title: "IEEE Conference on Computational Intelligence in Financial Engineering",
+      description: "Paper: Quantum Neural Networks for Securities Transaction Analysis",
+      link: "https://ieeexplore.ieee.org/conference/9876544"
+    },
+    {
+      title: "IEEE International Symposium on Financial Technology and Innovation",
+      description: "Keynote: Modernizing Legacy Systems in Capital Markets",
+      link: "https://ieeexplore.ieee.org/conference/9876545"
     }
   ];
 
@@ -197,6 +215,35 @@ const Skills: React.FC = () => {
                 </div>
               );
             })}
+          </div>
+        </div>
+
+        {/* IEEE Conferences Section */}
+        <div className="mt-20">
+          <h3 className="font-semibold text-2xl mb-8 scroll-animate">IEEE Conferences</h3>
+          
+          <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-6">
+            {ieeeConferences.map((conference, index) => (
+              <a 
+                key={index}
+                href={conference.link} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className={`bg-white rounded-lg shadow-sm p-6 hover:shadow-md transition-all duration-300 hover:scale-105 group scroll-animate stagger-${(index % 3) + 1}`}
+              >
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0">
+                    <ExternalLink size={24} className="text-primary group-hover:rotate-12 transition-transform" />
+                  </div>
+                  <div className="flex-1">
+                    <h4 className="font-semibold text-lg mb-2 group-hover:text-primary transition-colors">
+                      {conference.title}
+                    </h4>
+                    <p className="text-muted-foreground">{conference.description}</p>
+                  </div>
+                </div>
+              </a>
+            ))}
           </div>
         </div>
       </div>
