@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Button } from '@/components/ui/button';
 
@@ -52,12 +53,12 @@ const Research: React.FC = () => {
   ];
 
   const recommendations = [
-    { title: "AI-Driven Risk Management Systems", author: "Dr. Sarah Chen" },
-    { title: "Modern Securities Processing Architecture", author: "Michael Rodriguez" },
-    { title: "Regulatory Compliance Through Technology", author: "Jennifer Walsh" },
-    { title: "Data Platform Innovation in Finance", author: "Robert Kim" },
-    { title: "Legacy System Modernization Strategy", author: "Amanda Foster" },
-    { title: "Predictive Analytics in Asset Servicing", author: "David Thompson" }
+    { title: "Enhance SAR with AI", author: "Vikas Konanki, SVP, Citigroup" },
+    { title: "AI-Powered AML Compliance", author: "Sarath Pula, VP, Citigroup" },
+    { title: "Regulatory Reporting-AUC-SEC 10K", author: "Vijay Nakka, VP, Citigroup" },
+    { title: "Money Laundering Prediction Model", author: "Pramod Kotla, VP, Citigroup" },
+    { title: "Settlement Optimization", author: "Wayman Trent, VP, Citigroup" },
+    { title: "Legacy System Modernization", author: "Brian Bender, SVP, Citigroup" }
   ];
 
   return (
