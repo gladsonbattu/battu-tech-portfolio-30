@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Award, Cloud, Database, Trophy, Star, Brain, BarChart3, Building2, Hash, FileCode, Database as Db, BookOpen, ExternalLink } from 'lucide-react';
 
@@ -99,8 +100,8 @@ const Skills: React.FC = () => {
       link: "https://ieeexplore.ieee.org/conference/9876544"
     },
     {
-      title: "IEEE International Symposium on Financial Technology and Innovation",
-      description: "Keynote: Modernizing Legacy Systems in Capital Markets",
+      title: "IEEE International Symposium",
+      description: "Keynote: Application of AI in Pest and Disease Forecasting in Agriculture",
       link: "https://ieeexplore.ieee.org/conference/9876545"
     }
   ];

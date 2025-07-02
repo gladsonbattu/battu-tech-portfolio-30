@@ -50,6 +50,10 @@ const Research: React.FC = () => {
       title: "Enhancing Suspicious Activity reporting with Generative AI: Accuracy, Efficiency and Compliance",
       description: "A comprehensive study on leveraging generative artificial intelligence to improve suspicious activity reporting processes, focusing on enhanced accuracy, operational efficiency, and regulatory compliance in financial institutions.",
     },
+    {
+      title: "Responsible AI in Financial Services: Balancing Innovation, Regulation and Financial Inclusion in U.S.",
+      description: "An in-depth analysis of implementing responsible AI practices in financial services, examining the delicate balance between technological innovation, regulatory compliance, and promoting financial inclusion across diverse populations in the United States.",
+    },
   ];
 
   const recommendations = [
