@@ -1,4 +1,5 @@
 
+
 import React from 'react';
 import { Award, Cloud, Database, Trophy, Star, Brain, BarChart3, Building2, Hash, FileCode, Database as Db, BookOpen, ExternalLink } from 'lucide-react';
 
@@ -96,8 +97,8 @@ const Skills: React.FC = () => {
       link: "https://ieeexplore.ieee.org/conference/9876543"
     },
     {
-      title: "IEEE Conference on Computational Intelligence in Financial Engineering",
-      description: "Paper: Quantum Neural Networks for Securities Transaction Analysis",
+      title: "IEEE International Conference on Computing (ICOCO 2025)",
+      description: "Keynote: Atomic orbital search with convolutional neural network based cloud assisted centralized prediction model for enterprise financial risks",
       link: "https://ieeexplore.ieee.org/conference/9876544"
     },
     {
@@ -253,3 +254,4 @@ const Skills: React.FC = () => {
 };
 
 export default Skills;
+
