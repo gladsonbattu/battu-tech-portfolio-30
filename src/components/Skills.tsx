@@ -98,7 +98,7 @@ const Skills: React.FC = () => {
     },
     {
       title: "IEEE International Conference on Computing (ICOCO 2025)",
-      description: "Keynote: Atomic orbital search with convolutional neural network based cloud assisted centralized prediction model for enterprise financial risks",
+      description: "Keynote: Combating Financial Fraud with Federated AI: A Privacy-Preserving Approach to AML and Cybercrime Detection",
       link: "https://ieeexplore.ieee.org/conference/9876544"
     },
     {
