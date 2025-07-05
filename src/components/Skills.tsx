@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Award, Cloud, Database, Trophy, Star, Brain, BarChart3, Building2, Hash, FileCode, Database as Db, BookOpen, ExternalLink } from 'lucide-react';
 
@@ -90,8 +91,8 @@ const Skills: React.FC = () => {
 
   const ieeeConferences = [
     {
-      title: "IEEE International Conference on Artificial Intelligence and Machine Learning",
-      description: "Presenter: AI-Driven Financial Forensics and Compliance Automation",
+      title: "IEEE Conference in ETNCC",
+      description: "Keynote: Optimal financial fraud detection and alerting mechanism in cloud computing using deep belief network",
       link: "https://ieeexplore.ieee.org/conference/9876543"
     },
     {
