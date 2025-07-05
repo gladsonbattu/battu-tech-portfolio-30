@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Award, Cloud, Database, Trophy, Star, Brain, BarChart3, Building2, Hash, FileCode, Database as Db, BookOpen, ExternalLink } from 'lucide-react';
 
@@ -82,9 +81,10 @@ const Skills: React.FC = () => {
       icon: Award
     },
     {
-      title: "IJCET Journal Peer Reviewer",
-      description: "International Journal of Computer Engineering and Technology",
-      icon: Award
+      title: "AJOL Peer Reviewer",
+      description: "African Journals Online",
+      icon: Award,
+      link: "https://www.ajol.info/index.php/ajol"
     }
   ];
 
