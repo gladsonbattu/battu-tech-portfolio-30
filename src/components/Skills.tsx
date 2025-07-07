@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import { Award, Cloud, Database, Trophy, Star, Brain, BarChart3, Building2, Hash, FileCode, Database as Db, BookOpen, ExternalLink } from 'lucide-react';
 
@@ -97,12 +95,12 @@ const Skills: React.FC = () => {
       link: "https://ieeexplore.ieee.org/conference/9876543"
     },
     {
-      title: "IEEE International Conference on Computing (ICOCO 2025)",
+      title: "5th IEEE International Conference on Computing (ICOCO 2025)",
       description: "Keynote: Combating Financial Fraud with Federated AI: A Privacy-Preserving Approach to AML and Cybercrime Detection",
       link: "https://ieeexplore.ieee.org/conference/9876544"
     },
     {
-      title: "THE 16th International IEEE Conference on Computing, Communication and Networking Technologies (ICCCNT-2025)",
+      title: "The 16th International IEEE Conference on Computing, Communication and Networking Technologies (ICCCNT-2025)",
       description: "Keynote: Application of AI in Pest and Disease Forecasting in Agriculture",
       link: "https://ieeexplore.ieee.org/conference/9876545"
     }
@@ -254,4 +252,3 @@ const Skills: React.FC = () => {
 };
 
 export default Skills;
-
