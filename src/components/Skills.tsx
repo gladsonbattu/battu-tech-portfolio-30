@@ -92,7 +92,7 @@ const Skills: React.FC = () => {
 
   const ieeeConferences = [
     {
-      title: "IEEE Conference in ETNCC",
+      title: "5th International IEEE Conference on ETNCC-2025",
       description: "Keynote: Optimal financial fraud detection and alerting mechanism in cloud computing using deep belief network",
       link: "https://ieeexplore.ieee.org/conference/9876543"
     },
@@ -102,7 +102,7 @@ const Skills: React.FC = () => {
       link: "https://ieeexplore.ieee.org/conference/9876544"
     },
     {
-      title: "IEEE International Symposium",
+      title: "THE 16th International IEEE Conference on Computing, Communication and Networking Technologies (ICCCNT-2025)",
       description: "Keynote: Application of AI in Pest and Disease Forecasting in Agriculture",
       link: "https://ieeexplore.ieee.org/conference/9876545"
     }
