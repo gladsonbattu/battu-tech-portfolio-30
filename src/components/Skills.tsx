@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Award, Cloud, Database, Trophy, Star, Brain, BarChart3, Building2, Hash, FileCode, Database as Db, BookOpen, ExternalLink } from 'lucide-react';
 
@@ -58,6 +59,16 @@ const Skills: React.FC = () => {
   ];
 
   const awards = [
+    {
+      title: "Published a Book",
+      description: "\"From Code to Compliance\" - Building AI systems for Financial Fraud Detection, Regulation and Integrity",
+      icon: BookOpen
+    },
+    {
+      title: "Patent",
+      description: "\"System and Method for AI-driven Financial Fraud Detection using scalable cloud infrastructure\"",
+      icon: Award
+    },
     {
       title: "GL Award",
       description: "Global Leader Award for Excellence in AI-Driven Financial Technology Transformation",
