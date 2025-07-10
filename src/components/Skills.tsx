@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Award, Cloud, Database, Trophy, Star, Brain, BarChart3, Building2, Hash, FileCode, Database as Db, BookOpen, ExternalLink } from 'lucide-react';
 
@@ -100,6 +99,16 @@ const Skills: React.FC = () => {
   ];
 
   const ieeeConferences = [
+    {
+      title: "16th International ICCCNT",
+      description: "Keynote: AI-Driven Risk Assessment Models for Personalized Credit Scoring in Emerging FinTech EcoSystems",
+      link: "https://www.16icccnt.com/"
+    },
+    {
+      title: "16th International ICCCNT",
+      description: "Keynote: A Temporal graph Neural Network Approach for Deep Fraud Detection in Real-Time Financial Transactions",
+      link: "https://www.16icccnt.com/"
+    },
     {
       title: "5th International IEEE Conference on ETNCC-2025",
       description: "Keynote: Optimal financial fraud detection and alerting mechanism in cloud computing using deep belief network",
