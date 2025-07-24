@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Award, Cloud, Database, Trophy, Star, Brain, BarChart3, Building2, Hash, FileCode, Database as Db, BookOpen, ExternalLink } from 'lucide-react';
 
@@ -75,7 +74,7 @@ const Skills: React.FC = () => {
       icon: BookOpen
     },
     {
-      title: "Patent",
+      title: "UK Design Patent",
       description: "\"System and Method for AI-driven Financial Fraud Detection using scalable cloud infrastructure\"",
       icon: Award
     },
