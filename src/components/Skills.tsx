@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Award, Cloud, Database, Trophy, Star, Brain, BarChart3, Building2, Hash, FileCode, Database as Db, BookOpen, ExternalLink } from 'lucide-react';
 
@@ -126,7 +127,7 @@ const Skills: React.FC = () => {
     },
     {
       title: "5th IEEE International Conference on Computing (ICOCO 2025)",
-      description: "Keynote: Combating Financial Fraud with Federated AI: A Privacy-Preserving Approach to AML and Cybercrime Detection",
+      description: "Keynote: 5. Atomic orbital search with convolutional neural network based cloud assisted centralized prediction model for enterprise financial risks",
       link: "https://ieeexplore.ieee.org/conference/9876544"
     },
     {
