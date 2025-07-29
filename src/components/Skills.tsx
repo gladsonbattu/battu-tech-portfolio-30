@@ -70,6 +70,12 @@ const Skills: React.FC = () => {
       icon: BookOpen
     },
     {
+      title: "Editorial Board Member",
+      description: "Member of Editorial Board at Journal of Science & Technology",
+      icon: BookOpen,
+      link: "https://jst.org.in/index.php/pub/about/editorialTeam"
+    },
+    {
       title: "Published a Book",
       description: "\"From Code to Compliance\" - Building AI systems for Financial Fraud Detection, Regulation and Integrity",
       icon: BookOpen
