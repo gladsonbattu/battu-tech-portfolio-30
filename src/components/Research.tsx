@@ -54,6 +54,10 @@ const Research: React.FC = () => {
       title: "Responsible AI in Financial Services: Balancing Innovation, Regulation and Financial Inclusion in U.S.",
       description: "An in-depth analysis of implementing responsible AI practices in financial services, examining the delicate balance between technological innovation, regulatory compliance, and promoting financial inclusion across diverse populations in the United States.",
     },
+    {
+      title: "Cloud-Assisted FinTech Intelligence System Using AI for Fraud Detection and Risk Assessment",
+      description: "A comprehensive framework that leverages cloud computing and artificial intelligence technologies to create an intelligent system for enhanced fraud detection and comprehensive risk assessment in financial technology applications.",
+    },
   ];
 
   const recommendations = [

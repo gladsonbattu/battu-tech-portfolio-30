@@ -76,6 +76,11 @@ const Skills: React.FC = () => {
       link: "https://jst.org.in/index.php/pub/about/editorialTeam"
     },
     {
+      title: "TechBullion Recognition",
+      description: "Transforming Financial Integrity with AI",
+      icon: Star
+    },
+    {
       title: "Published a Book",
       description: "\"From Code to Compliance\" - Building AI systems for Financial Fraud Detection, Regulation and Integrity",
       icon: BookOpen
@@ -124,6 +129,16 @@ const Skills: React.FC = () => {
     {
       title: "16th International ICCCNT",
       description: "Keynote: A Temporal graph Neural Network Approach for Deep Fraud Detection in Real-Time Financial Transactions",
+      link: "https://www.16icccnt.com/"
+    },
+    {
+      title: "16th International IEEE Conference - ICCCNT",
+      description: "Keynote: Application of Big Data Analytics in Predictive Maintenance of industrial Equipment",
+      link: "https://www.16icccnt.com/"
+    },
+    {
+      title: "16th International IEEE Conference - ICCCNT",
+      description: "Keynote: Money Laundering Prediction Model using Multivariate Time Series Forecasting with Dynamic Graph Neural ODEs",
       link: "https://www.16icccnt.com/"
     },
     {
