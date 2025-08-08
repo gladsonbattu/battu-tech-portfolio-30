@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Award, Cloud, Database, Trophy, Star, Brain, BarChart3, Building2, Hash, FileCode, Database as Db, BookOpen, ExternalLink } from 'lucide-react';
 
@@ -155,6 +154,16 @@ const Skills: React.FC = () => {
       title: "The 16th International IEEE Conference on Computing, Communication and Networking Technologies (ICCCNT-2025)",
       description: "Keynote: Application of AI in Pest and Disease Forecasting in Agriculture",
       link: "https://ieeexplore.ieee.org/conference/9876545"
+    },
+    {
+      title: "5th International IEEE Conference - IoT",
+      description: "Keynote: Explainable AI-as-a-Service (XAIaaS) for Fraud Detection in Cloud-Based Financial Transaction Systems",
+      link: "https://iot.srhu.edu.in/"
+    },
+    {
+      title: "5th International IEEE Conference - IoT",
+      description: "Keynote: Federated Learning over Hybrid Cloud for Privacy-Preserving Credit Scoring in Multi-Institution Financial Systems",
+      link: "https://iot.srhu.edu.in/"
     }
   ];
 
