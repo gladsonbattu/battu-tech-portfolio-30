@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Award, Cloud, Database, Trophy, Star, Brain, BarChart3, Building2, Hash, FileCode, Database as Db, BookOpen, ExternalLink } from 'lucide-react';
 
@@ -82,7 +83,8 @@ const Skills: React.FC = () => {
     {
       title: "Published a Book",
       description: "\"From Code to Compliance\" - Building AI systems for Financial Fraud Detection, Regulation and Integrity",
-      icon: BookOpen
+      icon: BookOpen,
+      link: "https://www.amazon.in/dp/9367172346/ref=sr_1_1"
     },
     {
       title: "UK Design Patent",
