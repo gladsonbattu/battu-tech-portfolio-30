@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Award, Cloud, Database, Trophy, Star, Brain, BarChart3, Building2, Hash, FileCode, Database as Db, BookOpen, ExternalLink } from 'lucide-react';
 
@@ -78,7 +77,8 @@ const Skills: React.FC = () => {
     {
       title: "TechBullion Recognition",
       description: "Transforming Financial Integrity with AI",
-      icon: Star
+      icon: Star,
+      link: "https://techbullion.com/from-code-to-compliance-how-geol-gladson-battu-is-transforming-financial-integrity-with-ai/"
     },
     {
       title: "Published a Book",
