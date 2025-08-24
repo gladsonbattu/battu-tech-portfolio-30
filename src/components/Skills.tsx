@@ -166,6 +166,16 @@ const Skills: React.FC = () => {
       title: "5th International IEEE Conference - IoT",
       description: "Keynote: Federated Learning over Hybrid Cloud for Privacy-Preserving Credit Scoring in Multi-Institution Financial Systems",
       link: "https://iot.srhu.edu.in/"
+    },
+    {
+      title: "IEEE 7th International Conference on Computing, Communication and Automation (ICCCA-2025)",
+      description: "Keynote: Scalable AutoML Framework for SME Financial Forecasting in Cloud-Based Multi-Tenant Platforms",
+      link: "https://www.iccca.co.in/"
+    },
+    {
+      title: "IEEE 7th International Conference on Computing, Communication and Automation (ICCCA-2025)",
+      description: "Keynote: Dynamic Credit Scoring Systems Using Hybrid AI Models Deployed on Multi-Cloud Platforms",
+      link: "https://www.iccca.co.in/"
     }
   ];
 
