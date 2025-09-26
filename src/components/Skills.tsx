@@ -118,6 +118,22 @@ const Skills: React.FC = () => {
       description: "African Journals Online",
       icon: Award,
       link: "https://www.ajol.info/index.php/ajol"
+    },
+    {
+      title: "UK Design Patent",
+      description: "AI Enabled FinTech Security Device for Cyber Fraud Detection",
+      icon: Award
+    },
+    {
+      title: "Springer Conference-Technical Program Committee",
+      description: "Technical Program Committee Member",
+      icon: Award,
+      link: "https://www.sharda.ac.in/redcysec2025/tpc-committee"
+    },
+    {
+      title: "Canada Copyright",
+      description: "AI Driven Financial Network Risk Analysis and Fraud Detection software",
+      icon: Award
     }
   ];
 
@@ -185,6 +201,31 @@ const Skills: React.FC = () => {
     {
       title: "IETACS 2025 (International Conference on Innovations And Emerging Technologies In AI & Communication Systems)",
       description: "Keynote: Blockchain-Backed Cloud AI system for smart contract risk assessment in Decentralized Finance(DeFi)",
+      link: ""
+    },
+    {
+      title: "2025 IEEE 7th International Conference on Computing, Communication and Automation (ICCCA)",
+      description: "Keynote: Scalable AutoML Framework for SME Financial Forecasting in Cloud-Based Multi-Tenant Platforms",
+      link: "https://www.iccca.co.in/"
+    },
+    {
+      title: "2025 IEEE 7th International Conference on Computing, Communication and Automation (ICCCA)",
+      description: "Keynote: Dynamic Credit Scoring Systems Using Hybrid AI Models Deployed on Multi-Cloud Platforms",
+      link: "https://www.iccca.co.in/"
+    },
+    {
+      title: "The 4th International conference on Machine Learning and Data Engineering (ICMLDE 2025)",
+      description: "Keynote: Explainable AI for FinTech: Enhancing Trust, Transparency, and Decision-Making in Automated Financial Systems",
+      link: ""
+    },
+    {
+      title: "The 4th International conference on Machine Learning and Data Engineering (ICMLDE 2025)",
+      description: "Keynote: AI-Driven FinTech: Intelligent Risk Assessment and Fraud Detection in Digital Financial Ecosystems",
+      link: ""
+    },
+    {
+      title: "The 4th International conference on Machine Learning and Data Engineering (ICMLDE 2025)",
+      description: "Keynote: Personalized Financial Services through Artificial Intelligence: Transforming FinTech with Predictive Analytics and Deep Learning",
       link: ""
     }
   ];
