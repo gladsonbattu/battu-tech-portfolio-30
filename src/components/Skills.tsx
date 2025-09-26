@@ -109,8 +109,23 @@ const Skills: React.FC = () => {
       icon: BookOpen
     },
     {
-      title: "IEEE Member - Graduate Student Member",
+      title: "IEEE Member - Senior Member",
       description: "Institute of Electrical and Electronics Engineers",
+      icon: Award
+    },
+    {
+      title: "Springer Conference Reviewer",
+      description: "4th International Conference on Innovations in Data Analytics",
+      icon: Award
+    },
+    {
+      title: "IEEE – iSES Reviewer",
+      description: "11th IEEE International Symposium on Smart Electronic Systems (IEEE – iSES)",
+      icon: Award
+    },
+    {
+      title: "IEEE - IETACS Reviewer",
+      description: "International Conference on Innovations And Emerging Technologies In AI & Communication Systems",
       icon: Award
     },
     {
