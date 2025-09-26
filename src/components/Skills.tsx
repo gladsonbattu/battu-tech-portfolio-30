@@ -149,7 +149,7 @@ const Skills: React.FC = () => {
     },
     {
       title: "5th IEEE International Conference on Computing (ICOCO 2025)",
-      description: "Keynote: 5. Atomic orbital search with convolutional neural network based cloud assisted centralized prediction model for enterprise financial risks",
+      description: "Keynote: Enhancing Suspicious Activity Reporting with Generative AI: Accuracy, Efficiency, and Compliance",
       link: "https://ieeexplore.ieee.org/conference/9876544"
     },
     {
@@ -176,6 +176,16 @@ const Skills: React.FC = () => {
       title: "IEEE 7th International Conference on Computing, Communication and Automation (ICCCA-2025)",
       description: "Keynote: Dynamic Credit Scoring Systems Using Hybrid AI Models Deployed on Multi-Cloud Platforms",
       link: "https://www.iccca.co.in/"
+    },
+    {
+      title: "IEEE IntelliSecAI 2025 (IEEE International Conference on Computational Intelligence, Security, and Artificial Intelligence)",
+      description: "Keynote: Atomic Orbital Search with Convolutional Neural Network Based Cloud Assisted Centralized Prediction Model for Enterprise Financial Risks",
+      link: ""
+    },
+    {
+      title: "IETACS 2025 (International Conference on Innovations And Emerging Technologies In AI & Communication Systems)",
+      description: "Keynote: Blockchain-Backed Cloud AI system for smart contract risk assessment in Decentralized Finance(DeFi)",
+      link: ""
     }
   ];
 
