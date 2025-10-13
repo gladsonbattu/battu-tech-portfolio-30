@@ -57,6 +57,21 @@ const Skills: React.FC = () => {
     }
   ];
 
+  const mediaRecognition = [
+    {
+      title: "LevelUpMag",
+      description: "Trustworthy AI in Global Finance",
+      icon: Star,
+      link: "https://levelupmag.com/trustworthy-ai-global-finance-geol-battu/"
+    },
+    {
+      title: "Tampa Bay Observer Recognition",
+      description: "Global Recognition for AI-Driven Securities Innovation",
+      icon: Star,
+      link: "https://tampabayobserver.com/financial-technology-analyst-receives-global-recognition-for-ai-driven-securities-innovation/"
+    }
+  ];
+
   const awards = [
     {
       title: "IGI Global Scientific Publishing Book Chapters Reviewer",
@@ -98,12 +113,6 @@ const Skills: React.FC = () => {
       link: "https://glawards.org/geol-gladson-battu-receives-global-leader-award-for-excellence-in-ai-driven-financial-technology-transformation/"
     },
     {
-      title: "Tampa Bay Observer Recognition",
-      description: "Global Recognition for AI-Driven Securities Innovation",
-      icon: Star,
-      link: "https://tampabayobserver.com/financial-technology-analyst-receives-global-recognition-for-ai-driven-securities-innovation/"
-    },
-    {
       title: "Paper Presentation",
       description: "5th International Conference on Application of Artificial Intelligence at Crown University USA",
       icon: BookOpen
@@ -126,6 +135,11 @@ const Skills: React.FC = () => {
     {
       title: "IEEE - IETACS Reviewer",
       description: "International Conference on Innovations And Emerging Technologies In AI & Communication Systems",
+      icon: Award
+    },
+    {
+      title: "ACM Conference - Technical Program Committee",
+      description: "Technical Program Committee Member",
       icon: Award
     },
     {
@@ -352,6 +366,36 @@ const Skills: React.FC = () => {
                     AwardContent
                   )}
                 </div>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Media Recognition Section */}
+        <div className="mt-20">
+          <h3 className="font-semibold text-2xl mb-8 scroll-animate">Media Recognition</h3>
+          
+          <div className="grid md:grid-cols-2 gap-6">
+            {mediaRecognition.map((media, index) => {
+              const IconComponent = media.icon;
+              return (
+                <a 
+                  key={index}
+                  href={media.link} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className={`bg-white rounded-lg shadow-sm p-6 hover:shadow-md transition-all duration-300 hover:scale-105 group scroll-animate stagger-${(index % 2) + 1}`}
+                >
+                  <div className="flex items-start gap-4">
+                    <div className="flex-shrink-0">
+                      <IconComponent size={40} className="text-primary pulse-glow" />
+                    </div>
+                    <div className="flex-1">
+                      <h4 className="font-semibold text-lg mb-2 group-hover:text-primary transition-colors">{media.title}</h4>
+                      <p className="text-muted-foreground">{media.description}</p>
+                    </div>
+                  </div>
+                </a>
               );
             })}
           </div>
