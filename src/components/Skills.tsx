@@ -65,6 +65,12 @@ const Skills: React.FC = () => {
       link: "https://levelupmag.com/trustworthy-ai-global-finance-geol-battu/"
     },
     {
+      title: "TechBullion Recognition",
+      description: "Transforming Financial Integrity with AI",
+      icon: Star,
+      link: "https://techbullion.com/from-code-to-compliance-how-geol-gladson-battu-is-transforming-financial-integrity-with-ai/"
+    },
+    {
       title: "Tampa Bay Observer Recognition",
       description: "Global Recognition for AI-Driven Securities Innovation",
       icon: Star,
@@ -88,12 +94,6 @@ const Skills: React.FC = () => {
       description: "Member of Editorial Board at Journal of Science & Technology",
       icon: BookOpen,
       link: "https://jst.org.in/index.php/pub/about/editorialTeam"
-    },
-    {
-      title: "TechBullion Recognition",
-      description: "Transforming Financial Integrity with AI",
-      icon: Star,
-      link: "https://techbullion.com/from-code-to-compliance-how-geol-gladson-battu-is-transforming-financial-integrity-with-ai/"
     },
     {
       title: "Published a Book",
