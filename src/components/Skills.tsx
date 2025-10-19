@@ -8,7 +8,7 @@ const Skills: React.FC = () => {
     { name: "Microsoft BI", specific: "", icon: Building2 },
     { name: "R", specific: "", icon: Hash },
     { name: "Python", specific: "", icon: FileCode },
-    { name: "SQL", specific: "", icon: Db },
+    { name: "SQL", specific: "Hive SQL, SSMS, PostgreSQL", icon: Db },
   ];
 
   const certifications = [
