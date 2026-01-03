@@ -65,6 +65,12 @@ const Skills: React.FC = () => {
       link: "https://levelupmag.com/trustworthy-ai-global-finance-geol-battu/"
     },
     {
+      title: "NationToday",
+      description: "AI Reshaping Financial Compliance and Fraud Prevention",
+      icon: Star,
+      link: "https://nationtodaynews.com/how-artificial-intelligence-is-reshaping-financial-compliance-and-fraud-prevention/"
+    },
+    {
       title: "TechBullion Recognition",
       description: "Transforming Financial Integrity with AI",
       icon: Star,
@@ -80,20 +86,10 @@ const Skills: React.FC = () => {
 
   const awards = [
     {
-      title: "IGI Global Scientific Publishing Book Chapters Reviewer",
-      description: "IGI Global Scientific Publishing",
-      icon: BookOpen
-    },
-    {
-      title: "IFE Conference 2026 Reviewer",
-      description: "IFE Conference 2026",
-      icon: BookOpen
-    },
-    {
-      title: "Editorial Board Member",
-      description: "Member of Editorial Board at Journal of Science & Technology",
-      icon: BookOpen,
-      link: "https://jst.org.in/index.php/pub/about/editorialTeam"
+      title: "GL Award",
+      description: "Global Leader Award for Excellence in AI-Driven Financial Technology Transformation",
+      icon: Trophy,
+      link: "https://glawards.org/geol-gladson-battu-receives-global-leader-award-for-excellence-in-ai-driven-financial-technology-transformation/"
     },
     {
       title: "Published a Book",
@@ -107,15 +103,14 @@ const Skills: React.FC = () => {
       icon: Award
     },
     {
-      title: "GL Award",
-      description: "Global Leader Award for Excellence in AI-Driven Financial Technology Transformation",
-      icon: Trophy,
-      link: "https://glawards.org/geol-gladson-battu-receives-global-leader-award-for-excellence-in-ai-driven-financial-technology-transformation/"
+      title: "UK Design Patent",
+      description: "AI Enabled FinTech Security Device for Cyber Fraud Detection",
+      icon: Award
     },
     {
-      title: "Paper Presentation",
-      description: "5th International Conference on Application of Artificial Intelligence at Crown University USA",
-      icon: BookOpen
+      title: "Canada Copyright",
+      description: "AI Driven Financial Network Risk Analysis and Fraud Detection software",
+      icon: Award
     },
     {
       title: "IEEE Member - Senior Member",
@@ -123,8 +118,40 @@ const Skills: React.FC = () => {
       icon: Award
     },
     {
+      title: "Editorial Board Member",
+      description: "Member of Editorial Board at Journal of Science & Technology",
+      icon: BookOpen,
+      link: "https://jst.org.in/index.php/pub/about/editorialTeam"
+    },
+    {
+      title: "Paper Presentation",
+      description: "5th International Conference on Application of Artificial Intelligence at Crown University USA",
+      icon: BookOpen
+    },
+    {
+      title: "IGI Global Scientific Publishing Book Chapters Reviewer",
+      description: "IGI Global Scientific Publishing",
+      icon: BookOpen
+    },
+    {
+      title: "IFE Conference 2026 Reviewer",
+      description: "IFE Conference 2026",
+      icon: BookOpen
+    },
+    {
       title: "Springer Conference Reviewer",
       description: "4th International Conference on Innovations in Data Analytics",
+      icon: Award
+    },
+    {
+      title: "Springer Conference-Technical Program Committee",
+      description: "Technical Program Committee Member",
+      icon: Award,
+      link: "https://www.sharda.ac.in/redcysec2025/tpc-committee"
+    },
+    {
+      title: "ACM Conference - Technical Program Committee",
+      description: "Technical Program Committee Member",
       icon: Award
     },
     {
@@ -138,31 +165,10 @@ const Skills: React.FC = () => {
       icon: Award
     },
     {
-      title: "ACM Conference - Technical Program Committee",
-      description: "Technical Program Committee Member",
-      icon: Award
-    },
-    {
       title: "AJOL Peer Reviewer",
       description: "African Journals Online",
       icon: Award,
       link: "https://www.ajol.info/index.php/ajol"
-    },
-    {
-      title: "UK Design Patent",
-      description: "AI Enabled FinTech Security Device for Cyber Fraud Detection",
-      icon: Award
-    },
-    {
-      title: "Springer Conference-Technical Program Committee",
-      description: "Technical Program Committee Member",
-      icon: Award,
-      link: "https://www.sharda.ac.in/redcysec2025/tpc-committee"
-    },
-    {
-      title: "Canada Copyright",
-      description: "AI Driven Financial Network Risk Analysis and Fraud Detection software",
-      icon: Award
     }
   ];
 

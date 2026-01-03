@@ -17,7 +17,7 @@ const About: React.FC = () => {
             </p>
             
             <p className="text-lg leading-relaxed scroll-animate stagger-2">
-              As a senior technology analyst at Citigroup for the past 8+ years, I have led 
+              As a senior technology analyst at Citigroup for the past 9 years, I have led 
               transformative projects aimed at modernizing legacy infrastructures. My strategic leadership 
               has optimized custody services, asset servicing, settlement processes, and risk operations, 
               mitigating systemic risks and driving next-generation efficiencies.
@@ -33,7 +33,7 @@ const About: React.FC = () => {
               </li>
               <li className="flex items-start scroll-animate stagger-5">
                 <span className="text-primary mr-2">•</span>
-                <span>8+ years at Citigroup</span>
+                <span>9 years at Citigroup</span>
               </li>
               <li className="flex items-start scroll-animate stagger-6">
                 <span className="text-primary mr-2">•</span>
