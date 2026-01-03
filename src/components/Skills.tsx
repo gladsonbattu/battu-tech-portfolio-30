@@ -175,92 +175,92 @@ const Skills: React.FC = () => {
   const ieeeConferences = [
     {
       title: "16th International ICCCNT",
-      description: "Keynote: AI-Driven Risk Assessment Models for Personalized Credit Scoring in Emerging FinTech EcoSystems",
+      description: "AI-Driven Risk Assessment Models for Personalized Credit Scoring in Emerging FinTech EcoSystems",
       link: "https://www.16icccnt.com/"
     },
     {
       title: "16th International ICCCNT",
-      description: "Keynote: A Temporal graph Neural Network Approach for Deep Fraud Detection in Real-Time Financial Transactions",
+      description: "A Temporal graph Neural Network Approach for Deep Fraud Detection in Real-Time Financial Transactions",
       link: "https://www.16icccnt.com/"
     },
     {
       title: "16th International IEEE Conference - ICCCNT",
-      description: "Keynote: Application of Big Data Analytics in Predictive Maintenance of industrial Equipment",
+      description: "Application of Big Data Analytics in Predictive Maintenance of industrial Equipment",
       link: "https://www.16icccnt.com/"
     },
     {
       title: "16th International IEEE Conference - ICCCNT",
-      description: "Keynote: Money Laundering Prediction Model using Multivariate Time Series Forecasting with Dynamic Graph Neural ODEs",
+      description: "Money Laundering Prediction Model using Multivariate Time Series Forecasting with Dynamic Graph Neural ODEs",
       link: "https://www.16icccnt.com/"
     },
     {
       title: "5th International IEEE Conference on ETNCC-2025",
-      description: "Keynote: Optimal financial fraud detection and alerting mechanism in cloud computing using deep belief network",
+      description: "Optimal financial fraud detection and alerting mechanism in cloud computing using deep belief network",
       link: "https://ieeexplore.ieee.org/conference/9876543"
     },
     {
       title: "5th IEEE International Conference on Computing (ICOCO 2025)",
-      description: "Keynote: Enhancing Suspicious Activity Reporting with Generative AI: Accuracy, Efficiency, and Compliance",
+      description: "Enhancing Suspicious Activity Reporting with Generative AI: Accuracy, Efficiency, and Compliance",
       link: "https://ieeexplore.ieee.org/conference/9876544"
     },
     {
       title: "The 16th International IEEE Conference on Computing, Communication and Networking Technologies (ICCCNT-2025)",
-      description: "Keynote: Application of AI in Pest and Disease Forecasting in Agriculture",
+      description: "Application of AI in Pest and Disease Forecasting in Agriculture",
       link: "https://ieeexplore.ieee.org/conference/9876545"
     },
     {
       title: "5th International IEEE Conference - IoT",
-      description: "Keynote: Explainable AI-as-a-Service (XAIaaS) for Fraud Detection in Cloud-Based Financial Transaction Systems",
+      description: "Explainable AI-as-a-Service (XAIaaS) for Fraud Detection in Cloud-Based Financial Transaction Systems",
       link: "https://iot.srhu.edu.in/"
     },
     {
       title: "5th International IEEE Conference - IoT",
-      description: "Keynote: Federated Learning over Hybrid Cloud for Privacy-Preserving Credit Scoring in Multi-Institution Financial Systems",
+      description: "Federated Learning over Hybrid Cloud for Privacy-Preserving Credit Scoring in Multi-Institution Financial Systems",
       link: "https://iot.srhu.edu.in/"
     },
     {
       title: "IEEE 7th International Conference on Computing, Communication and Automation (ICCCA-2025)",
-      description: "Keynote: Scalable AutoML Framework for SME Financial Forecasting in Cloud-Based Multi-Tenant Platforms",
+      description: "Scalable AutoML Framework for SME Financial Forecasting in Cloud-Based Multi-Tenant Platforms",
       link: "https://www.iccca.co.in/"
     },
     {
       title: "IEEE 7th International Conference on Computing, Communication and Automation (ICCCA-2025)",
-      description: "Keynote: Dynamic Credit Scoring Systems Using Hybrid AI Models Deployed on Multi-Cloud Platforms",
+      description: "Dynamic Credit Scoring Systems Using Hybrid AI Models Deployed on Multi-Cloud Platforms",
       link: "https://www.iccca.co.in/"
     },
     {
       title: "IEEE IntelliSecAI 2025 (IEEE International Conference on Computational Intelligence, Security, and Artificial Intelligence)",
-      description: "Keynote: Atomic Orbital Search with Convolutional Neural Network Based Cloud Assisted Centralized Prediction Model for Enterprise Financial Risks",
+      description: "Atomic Orbital Search with Convolutional Neural Network Based Cloud Assisted Centralized Prediction Model for Enterprise Financial Risks",
       link: ""
     },
     {
       title: "IETACS 2025 (International Conference on Innovations And Emerging Technologies In AI & Communication Systems)",
-      description: "Keynote: Blockchain-Backed Cloud AI system for smart contract risk assessment in Decentralized Finance(DeFi)",
+      description: "Blockchain-Backed Cloud AI system for smart contract risk assessment in Decentralized Finance(DeFi)",
       link: ""
     },
     {
       title: "2025 IEEE 7th International Conference on Computing, Communication and Automation (ICCCA)",
-      description: "Keynote: Scalable AutoML Framework for SME Financial Forecasting in Cloud-Based Multi-Tenant Platforms",
+      description: "Scalable AutoML Framework for SME Financial Forecasting in Cloud-Based Multi-Tenant Platforms",
       link: "https://www.iccca.co.in/"
     },
     {
       title: "2025 IEEE 7th International Conference on Computing, Communication and Automation (ICCCA)",
-      description: "Keynote: Dynamic Credit Scoring Systems Using Hybrid AI Models Deployed on Multi-Cloud Platforms",
+      description: "Dynamic Credit Scoring Systems Using Hybrid AI Models Deployed on Multi-Cloud Platforms",
       link: "https://www.iccca.co.in/"
     },
     {
       title: "The 4th International conference on Machine Learning and Data Engineering (ICMLDE 2025)",
-      description: "Keynote: Explainable AI for FinTech: Enhancing Trust, Transparency, and Decision-Making in Automated Financial Systems",
+      description: "Explainable AI for FinTech: Enhancing Trust, Transparency, and Decision-Making in Automated Financial Systems",
       link: ""
     },
     {
       title: "The 4th International conference on Machine Learning and Data Engineering (ICMLDE 2025)",
-      description: "Keynote: AI-Driven FinTech: Intelligent Risk Assessment and Fraud Detection in Digital Financial Ecosystems",
+      description: "AI-Driven FinTech: Intelligent Risk Assessment and Fraud Detection in Digital Financial Ecosystems",
       link: ""
     },
     {
       title: "The 4th International conference on Machine Learning and Data Engineering (ICMLDE 2025)",
-      description: "Keynote: Personalized Financial Services through Artificial Intelligence: Transforming FinTech with Predictive Analytics and Deep Learning",
+      description: "Personalized Financial Services through Artificial Intelligence: Transforming FinTech with Predictive Analytics and Deep Learning",
       link: ""
     }
   ];
