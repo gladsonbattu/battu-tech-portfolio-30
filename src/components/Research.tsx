@@ -63,9 +63,9 @@ const Research: React.FC = () => {
   const recommendations = [
     { title: "Enhance SAR with AI", author: "Vikas Konanki, SVP, Citigroup" },
     { title: "AI-Powered AML Compliance", author: "Sarath Pula, VP, Citigroup" },
-    { title: "Regulatory Reporting-AUC-SEC 10K", author: "Vijay Nakka, VP, Citigroup" },
+    { title: "Regulatory Reporting-AUC-SEC 10K", author: "HariKrishna Yadlapalli, SVP, Citigroup" },
     { title: "Money Laundering Prediction Model", author: "Pramod Kotla, VP, Citigroup" },
-    { title: "Settlement Optimization", author: "Wayman Trent, VP, Citigroup" },
+    { title: "Finance Fraud Detection Patents", author: "Wayman Trent, VP, Citigroup" },
     { title: "Legacy System Modernization", author: "Brian Bender, SVP, Citigroup" }
   ];
 
