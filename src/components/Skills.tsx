@@ -196,12 +196,12 @@ const Skills: React.FC = () => {
     {
       title: "5th International IEEE Conference on ETNCC-2025",
       description: "Optimal financial fraud detection and alerting mechanism in cloud computing using deep belief network",
-      link: "https://ieeexplore.ieee.org/conference/9876543"
+      link: "https://ieeexplore.ieee.org/document/11299665"
     },
     {
       title: "5th IEEE International Conference on Computing (ICOCO 2025)",
       description: "Enhancing Suspicious Activity Reporting with Generative AI: Accuracy, Efficiency, and Compliance",
-      link: "https://ieeexplore.ieee.org/conference/9876544"
+      link: "https://ieeexplore.ieee.org/document/11334078"
     },
     {
       title: "The 16th International IEEE Conference on Computing, Communication and Networking Technologies (ICCCNT-2025)",
@@ -221,12 +221,12 @@ const Skills: React.FC = () => {
     {
       title: "IEEE 7th International Conference on Computing, Communication and Automation (ICCCA-2025)",
       description: "Scalable AutoML Framework for SME Financial Forecasting in Cloud-Based Multi-Tenant Platforms",
-      link: "https://www.iccca.co.in/"
+      link: "https://ieeexplore.ieee.org/document/11325320"
     },
     {
       title: "IEEE 7th International Conference on Computing, Communication and Automation (ICCCA-2025)",
       description: "Dynamic Credit Scoring Systems Using Hybrid AI Models Deployed on Multi-Cloud Platforms",
-      link: "https://www.iccca.co.in/"
+      link: "https://ieeexplore.ieee.org/document/11325455"
     },
     {
       title: "IEEE IntelliSecAI 2025 (IEEE International Conference on Computational Intelligence, Security, and Artificial Intelligence)",
