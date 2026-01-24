@@ -239,16 +239,6 @@ const Skills: React.FC = () => {
       link: ""
     },
     {
-      title: "2025 IEEE 7th International Conference on Computing, Communication and Automation (ICCCA)",
-      description: "Scalable AutoML Framework for SME Financial Forecasting in Cloud-Based Multi-Tenant Platforms",
-      link: "https://www.iccca.co.in/"
-    },
-    {
-      title: "2025 IEEE 7th International Conference on Computing, Communication and Automation (ICCCA)",
-      description: "Dynamic Credit Scoring Systems Using Hybrid AI Models Deployed on Multi-Cloud Platforms",
-      link: "https://www.iccca.co.in/"
-    },
-    {
       title: "The 4th International conference on Machine Learning and Data Engineering (ICMLDE 2025)",
       description: "Explainable AI for FinTech: Enhancing Trust, Transparency, and Decision-Making in Automated Financial Systems",
       link: ""
